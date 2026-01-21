@@ -1,4 +1,3 @@
-```markdown
 # Perplexity Chat Zsh Script
 
 ## Description
