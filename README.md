@@ -22,14 +22,14 @@ A lightweight command-line interactive chat for Perplexity AI built in pure Zsh,
    ```bash
    export PERPLEXITY_API_KEY="your_api_key_here"
    ```
-Consider entering the previous command in your .zshrc for ease of use.
+Consider entering the previous command in your `.zshrc` for ease of use.
 
 ## Configuration
 
 Edit the script to customize:
 - **Model selection**: Change the `model` parameter (e.g., `sonar-pro`, `pplx-7b-online`).
 
-The following feature are not yet implemented :
+The following features are not yet implemented :
 - **System prompt**: Modify the `system` message for different assistant behaviors
 - **Request parameters**: Adjust temperature, max tokens, and other API options
 
@@ -40,14 +40,14 @@ Run the script with your query as an argument:
 ```bash
 ./perpchat
 ```
-Consider adding the directory in your $PATH.
-You can leave the interactive chat by entering 'exit' or hitting CTRL+C.
+Consider adding the directory in your `$PATH` if you intend on using the script frequently.
+You can leave the interactive chat by entering `exit` or hitting CTRL+C.
 
-Chat is saved in $HOME/perplexity_chats upon leaving the chat.
+Chat is saved in `$HOME/perplexity_chats` upon leaving.
 
 ## API Endpoint
 
-The script communicates with:[1]
+The script communicates with:
 ```
 https://api.perplexity.ai/chat/completions
 ```
