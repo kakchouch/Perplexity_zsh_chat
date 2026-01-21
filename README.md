@@ -27,7 +27,8 @@ Consider entering the previous command in your .zshrc for ease of use.
 ## Configuration
 
 Edit the script to customize:
-- **Model selection**: Change the `model` parameter (e.g., `sonar-pro`, `pplx-7b-online`)
+- **Model selection**: Change the `model` parameter (e.g., `sonar-pro`, `pplx-7b-online`).
+
 The following feature are not yet implemented :
 - **System prompt**: Modify the `system` message for different assistant behaviors
 - **Request parameters**: Adjust temperature, max tokens, and other API options
